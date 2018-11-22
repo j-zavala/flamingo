@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Homepage
+        link(rel='stylesheet', href='/sass/style.css')
+        link(rel="shortcut icon" type="image/png" href="/images/icons/favicon.png")
+    body
+        header.top
+            nav.nav
+                each item in h.menuLeft
+                    li.nav__item
+                        a.nav__link(href=item.slug class=(currentPath.startsWith(item.slug) ? 'nav__link--active' : ''))
+                            span #{item.title}
+                != h.icon('flamingo')
+                each item in h.menuRight
+                    li.nav__item
+                        a.nav__link(href=item.slug class=(currentPath.startsWith(item.slug) ? 'nav__link--active' : ''))
+                            span #{item.title}
+
+        section.suggestions
+        section.about
+        section.cities
+        section.furniture
+        footer.bottom

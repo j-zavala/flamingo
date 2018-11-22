@@ -1,0 +1,40 @@
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+.top { 
+    /* The image used */
+    background-image: url('/images/photos/etienne-beauregard-riverin-48305-unsplash.jpg');  
+    /* Full height */
+    height: 100%;   
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    // background: $midnight;
+    &__item {
+        display: flex;
+    }
+    &__link {
+        color: white;
+        // border-right: 1px solid rgba(255,255,255,0.1);
+        text-transform: uppercase;
+        padding: 1.2rem 2rem 1rem 2rem;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.2s;
+        border-bottom: 5px solid transparent;
+    }
+}

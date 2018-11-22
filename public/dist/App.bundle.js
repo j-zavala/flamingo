@@ -100,7 +100,7 @@ exports.$$ = $$;
 /* 1 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \n@import 'partials/normalize';\n^\n      File to import not found or unreadable: partials/normalize.\n      in /Users/johnnyzavala/flamingo/public/sass/style.scss (line 2, column 1)\n    at /Users/johnnyzavala/flamingo/node_modules/webpack/lib/NormalModule.js:141:35\n    at /Users/johnnyzavala/flamingo/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/johnnyzavala/flamingo/node_modules/loader-runner/lib/LoaderRunner.js:230:18\n    at context.callback (/Users/johnnyzavala/flamingo/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (/Users/johnnyzavala/flamingo/node_modules/sass-loader/lib/loader.js:57:13)\n    at Object.<anonymous> (/Users/johnnyzavala/flamingo/node_modules/sass-loader/node_modules/async/dist/async.js:2271:31)\n    at Object.callback (/Users/johnnyzavala/flamingo/node_modules/sass-loader/node_modules/async/dist/async.js:969:16)\n    at options.error (/Users/johnnyzavala/flamingo/node_modules/node-sass/lib/index.js:294:32)");
 
 /***/ }),
 /* 2 */
